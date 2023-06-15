@@ -35,23 +35,19 @@ public class DaoProductosImpl extends ConexionOracle implements DaoProductos {
     }
 
     @Override
-    public String numeroCod() throws Exception {
+    public String mostrar() throws Exception {
     }
 
     @Override
-    public void llamarDatos(JTable visor) throws Exception {
+    public void eliminar() throws Exception {
     } 
 
     @Override
-    public void eliminar(String id) throws Exception {
+    public void buscar() throws Exception {
     }
 
     @Override
-    public void actualizar(Productos prod) throws Exception {
-    }
-
-    @Override
-    public void llamardatos2(JTable visor, String buscar) throws Exception {
-    }
+    public void actualizar() throws Exception {
+    }    
        
 }
